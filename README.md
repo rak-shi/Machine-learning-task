@@ -1,7 +1,7 @@
 # Machine-learning-task
 # US-Accident to predict accident severity
 This project aims to analyze the provided dataset to discover insights that can be visually expressed through the data. The specific objectives include:  Clean and organize the data to ensure consistency and integrity of information.
-# About this project: ¶
+# About this project: 
 This project aims to analyze the provided dataset to discover insights that can be visually expressed through the data. The specific objectives include:
 
 Clean and organize the data to ensure consistency and integrity of information.
@@ -61,7 +61,7 @@ Civil_Twilight:- Tells us the period of the day based on civil twilight.
 Nautical_Twilight:- Tells us the period of the day based on nautical twilight.
 Astronomical_Twilight:- Tells us the period of the day based on astrnomical twilight.
 
-# About the Dataset: ¶
+# About the Dataset: 
 The dataset is a compilation of automobile accidents nationwide covering 49 states of the USA. Data were collected from February 2016 to March 2023 using multiple APIs providing real-time traffic incident data. These APIs transmit traffic data captured by various entities including US and state transportation departments, law enforcement agencies, traffic cameras, and sensors within road networks. The dataset currently comprises approximately 7.7 million accident records.
 
 # Data Analysis and Visualization
@@ -77,11 +77,11 @@ Crossing
 Traffic Signal
 Bump
 
-# Loading the Data¶
+# Loading the Data
 This section entails importing the dataset from a CSV file using the Pandas library. The necessary libraries will be imported, and the first 5 rows of the dataset will be visualized.
 Data Information
 This section explores the dataset US_Accidents, which contains information about various attributes related to car accidents in the US. This includes details like the accident severity, location coordinates, weather conditions, and road features such as crossings and junctions. They've inspected the dataset's columns, checked for missing values, and provided descriptive statistics to understand the numerical features' distributions and characteristics.
-# Data Cleaning¶
+# Data Cleaning
 In this section the missingno library is utilized to visualize missing values in their dataset US_Accidents. After identifying columns with missing data, the percentage of missing values for each column is calculated and dropped those with more than 25% missing data. Additionally, Columns not relevant to the analysis are dropped and removed rows with any remaining missing values.
 Exploratory Analysis and Visualization¶¶
 In this section, various perspectives are explored. Data analysis includes location-based examination, date-related insights, study of atmospheric factors' impact, and analysis based on traffic characteristics.
